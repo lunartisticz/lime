@@ -6,6 +6,19 @@
     "[xml]": {
         "editor.formatOnSave": false
     },
+    "[haxe]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": { "source.organizeImports": "never" },
+    "editor.defaultFormatter": "nadako.vshaxe",
+    "editor.tabSize": 2
+  },
+
+    "haxecheckstyle.sourceFolders": ["src", "source"],
+  "haxecheckstyle.externalSourceRoots": [],
+  "haxecheckstyle.configurationFile": "include/checkstyle.json",
+  "haxecheckstyle.codeSimilarityBufferSize": 100,
+  "editor.tabSize": 2,
     "editor.insertSpaces": false,
     "editor.trimAutoWhitespace": true,
     "codedox": {
